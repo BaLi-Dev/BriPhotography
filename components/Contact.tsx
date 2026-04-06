@@ -73,7 +73,7 @@ export default function Contact() {
         </form>
       </div>
 
-      <div className="contact-right">
+      <div className="contact-right chess-bw" style={{ animation: 'checkerFade 4s ease-in-out infinite alternate' }}>
         {Array.from({ length: 64 }).map((_, i) => <div key={i} />)}
         <div className="contact-right-inner">
           <div className="contact-big-letter">BT</div>

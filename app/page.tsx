@@ -46,6 +46,7 @@ export default async function Home() {
       <Hero />
       <Ticker />
       <Gallery photos={photos} />
+      <div className="chess-bw" style={{ height: 40, opacity: 0.9 }} />
       <Categories counts={counts} />
       <About />
       <Contact />

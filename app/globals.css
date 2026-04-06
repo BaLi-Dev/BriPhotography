@@ -715,9 +715,9 @@ footer {
 /* True black & white checkerboard */
 .chess-bw {
   background-image: repeating-conic-gradient(#f5f0e8 0% 25%, #111 0% 50%);
-  background-size: 16px 16px;
+  background-size: 20px 20px;
 }
 .chess-bw-sm {
   background-image: repeating-conic-gradient(#f5f0e8 0% 25%, #111 0% 50%);
-  background-size: 10px 10px;
+  background-size: 20px 20px;
 }

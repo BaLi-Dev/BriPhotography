@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section className="about" id="about">
-      <div className="about-checker">
+      <div className="about-checker chess-bw" style={{ opacity: 0.85 }}>
         {Array.from({ length: 36 }).map((_, i) => <div key={i} />)}
         <div className="about-checker-inner">
           <div className="lens-graphic">
