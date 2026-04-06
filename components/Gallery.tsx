@@ -45,6 +45,12 @@ export default function Gallery({ photos }: { photos: Photo[] }) {
           <span>Selected Work</span>
           PORTFOLIO
         </div>
+        {/* chess accent strip under title */}
+        <div style={{ position: 'absolute', left: '3rem', bottom: 0, display: 'grid', gridTemplateColumns: 'repeat(8, 10px)', gridTemplateRows: '10px 10px', opacity: 0.18 }}>
+          {Array.from({ length: 16 }).map((_, i) => (
+            <div key={i} style={{ background: (Math.floor(i / 8) + i) % 2 === 0 ? 'var(--accent)' : 'transparent' }} />
+          ))}
+        </div>
         <ul className="gallery-filter">
           {FILTERS.map(f => (
             <li key={f}>

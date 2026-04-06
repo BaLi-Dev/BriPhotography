@@ -19,7 +19,13 @@ export default function About() {
           My cameras are extensions of my curiosity. Whether I&apos;m tracking a rally car through hairpin turns or waiting motionless for a hawk to catch the morning sun, it&apos;s all the same act of devotion.
         </p>
         <div className="about-stats">
-          <div>
+          <div style={{ position: 'relative' }}>
+            {/* mini chess board corner */}
+            <div style={{ position: 'absolute', top: 0, right: -16, display: 'grid', gridTemplateColumns: 'repeat(4, 6px)', gridTemplateRows: 'repeat(4, 6px)', opacity: 0.2 }}>
+              {Array.from({ length: 16 }).map((_, i) => (
+                <div key={i} style={{ background: (Math.floor(i / 4) + i) % 2 === 0 ? 'var(--accent)' : 'transparent' }} />
+              ))}
+            </div>
             <div className="stat-num">12+</div>
             <div className="stat-label">Years Shooting</div>
           </div>

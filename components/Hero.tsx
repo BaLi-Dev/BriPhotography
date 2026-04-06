@@ -2,6 +2,12 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-left">
+        {/* subtle chess watermark */}
+        <div style={{ position: 'absolute', top: '4rem', right: '2rem', display: 'grid', gridTemplateColumns: 'repeat(6, 14px)', gridTemplateRows: 'repeat(6, 14px)', opacity: 0.06, pointerEvents: 'none' }}>
+          {Array.from({ length: 36 }).map((_, i) => (
+            <div key={i} style={{ background: (Math.floor(i / 6) + i) % 2 === 0 ? 'var(--white)' : 'transparent' }} />
+          ))}
+        </div>
         <div className="hero-eyebrow">Photography Portfolio</div>
         <h1 className="hero-title">
           BRIGITTA<br />
