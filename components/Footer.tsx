@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer>
-      <div className="checker-strip" style={{ height: 14 }}>
+      <div className="checker-strip chess-bw-sm" style={{ height: 14 }}>
         {Array.from({ length: 20 }).map((_, i) => <div className="cell" key={i} />)}
       </div>
       <div className="footer-main">

@@ -51,8 +51,6 @@ body {
   overflow: hidden;
 }
 .checker-strip .cell { height: 28px; }
-.checker-strip .cell:nth-child(odd) { background: var(--accent); }
-.checker-strip .cell:nth-child(even) { background: var(--black); }
 
 nav {
   position: fixed;
@@ -102,8 +100,7 @@ nav {
   border-left: 1px solid #2a2a2a;
   overflow: hidden;
 }
-.nav-checker div:nth-child(odd) { background: var(--accent); }
-.nav-checker div:nth-child(even) { background: var(--black); }
+.nav-checker div { display: none; }
 
 .hero {
   min-height: 100vh;
@@ -714,3 +711,13 @@ footer {
 .hero-title { animation: fadeUp 0.8s 0.4s both; }
 .hero-desc { animation: fadeUp 0.8s 0.6s both; }
 .hero-cta { animation: fadeUp 0.8s 0.8s both; }
+
+/* True black & white checkerboard */
+.chess-bw {
+  background-image: repeating-conic-gradient(#f5f0e8 0% 25%, #111 0% 50%);
+  background-size: 16px 16px;
+}
+.chess-bw-sm {
+  background-image: repeating-conic-gradient(#f5f0e8 0% 25%, #111 0% 50%);
+  background-size: 10px 10px;
+}
