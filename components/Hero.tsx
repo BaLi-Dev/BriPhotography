@@ -30,7 +30,7 @@ export default function Hero() {
             <rect x="220" y="75" width="25" height="16" rx="2" stroke="#3a7d44" strokeWidth="1.5" />
             <circle cx="40" cy="80" r="8" stroke="#3a7d44" strokeWidth="1.5" />
           </svg>
-          <div className="hero-checker-overlay chess-bw-sm" style={{ opacity: 0.18 }}>
+          <div className="hero-checker-overlay chess-bw">
             {Array.from({ length: 24 }).map((_, i) => <div key={i} />)}
           </div>
           <span className="hero-image-label">PORTFOLIO / 2024</span>

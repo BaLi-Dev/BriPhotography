@@ -182,15 +182,8 @@ nav {
   position: absolute;
   bottom: 0; left: 0; right: 0;
   height: 120px;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 1fr 1fr;
-  opacity: 0.35;
 }
-.hero-checker-overlay div:nth-child(4n+1),
-.hero-checker-overlay div:nth-child(4n+4) { background: var(--accent); }
-.hero-checker-overlay div:nth-child(4n+2),
-.hero-checker-overlay div:nth-child(4n+3) { background: transparent; }
+.hero-checker-overlay div { display: none; }
 
 .camera-icon-bg {
   position: absolute;
