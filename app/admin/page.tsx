@@ -23,7 +23,7 @@ const btnStyle: React.CSSProperties = {
   fontSize: '0.7rem',
   letterSpacing: '0.2em',
   color: '#0a0a0a',
-  background: '#c8a85a',
+  background: '#3a7d44',
   border: 'none',
   padding: '1rem 2rem',
   cursor: 'pointer',
@@ -84,7 +84,7 @@ export default function AdminPage() {
 
   return (
     <div style={{ minHeight: '100vh', background: '#0a0a0a', color: '#f5f0e8', padding: '4rem 3rem', fontFamily: 'Space Mono, monospace' }}>
-      <h1 style={{ fontFamily: 'Bebas Neue, sans-serif', fontSize: '3rem', color: '#c8a85a', marginBottom: '2rem', letterSpacing: '0.05em' }}>
+      <h1 style={{ fontFamily: 'Bebas Neue, sans-serif', fontSize: '3rem', color: '#3a7d44', marginBottom: '2rem', letterSpacing: '0.05em' }}>
         ADMIN — UPLOAD PHOTO
       </h1>
       <form onSubmit={upload} style={{ display: 'flex', flexDirection: 'column', gap: '1rem', maxWidth: 480 }}>
@@ -109,7 +109,7 @@ export default function AdminPage() {
           {status === 'uploading' ? 'UPLOADING...' : 'UPLOAD →'}
         </button>
         {message && (
-          <span style={{ fontSize: '0.65rem', letterSpacing: '0.15em', color: status === 'error' ? '#8b2020' : '#c8a85a' }}>
+          <span style={{ fontSize: '0.65rem', letterSpacing: '0.15em', color: status === 'error' ? '#8b2020' : '#3a7d44' }}>
             {message}
           </span>
         )}

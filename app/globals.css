@@ -7,7 +7,7 @@
   --cream: #e8e0d0;
   --checker1: #1a1a1a;
   --checker2: #2e2e2e;
-  --accent: #c8a85a;
+  --accent: #3a7d44;
   --accent2: #8b2020;
 }
 
@@ -268,21 +268,21 @@ nav {
   align-items: center;
   justify-content: center;
   position: relative;
-  box-shadow: 0 0 60px rgba(200,168,90,0.15), inset 0 0 40px rgba(200,168,90,0.05);
+  box-shadow: 0 0 60px rgba(58,125,68,0.15), inset 0 0 40px rgba(58,125,68,0.05);
 }
 .lens-graphic::before {
   content: '';
   position: absolute;
   width: 150px; height: 150px;
   border-radius: 50%;
-  border: 1px solid rgba(200,168,90,0.4);
+  border: 1px solid rgba(58,125,68,0.4);
 }
 .lens-graphic::after {
   content: '';
   position: absolute;
   width: 100px; height: 100px;
   border-radius: 50%;
-  border: 1px solid rgba(200,168,90,0.25);
+  border: 1px solid rgba(58,125,68,0.25);
 }
 .lens-center {
   width: 60px; height: 60px;
@@ -601,7 +601,7 @@ nav {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 18rem;
   color: transparent;
-  -webkit-text-stroke: 1px rgba(200,168,90,0.15);
+  -webkit-text-stroke: 1px rgba(58,125,68,0.15);
   line-height: 1;
   user-select: none;
 }
@@ -714,10 +714,10 @@ footer {
 
 /* True black & white checkerboard */
 .chess-bw {
-  background-image: repeating-conic-gradient(#f5f0e8 0% 25%, #111 0% 50%);
+  background-image: repeating-conic-gradient(#ffffff 0% 25%, #000000 0% 50%);
   background-size: 20px 20px;
 }
 .chess-bw-sm {
-  background-image: repeating-conic-gradient(#f5f0e8 0% 25%, #111 0% 50%);
+  background-image: repeating-conic-gradient(#ffffff 0% 25%, #000000 0% 50%);
   background-size: 20px 20px;
 }
