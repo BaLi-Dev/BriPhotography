@@ -1,7 +1,7 @@
 export default function Nav() {
   return (
     <nav>
-      <a className="nav-logo" href="#"><span>B</span>RIGITTA TOTH</a>
+      <a className="nav-logo" href="#"><span>B</span>RI PHOTOGRAPHY</a>
       <ul className="nav-links">
         <li><a href="#gallery">Work</a></li>
         <li><a href="#categories">Categories</a></li>

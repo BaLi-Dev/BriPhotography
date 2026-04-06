@@ -13,7 +13,7 @@ export default function About() {
         <div className="section-label">About</div>
         <h2 className="about-title">THE EYE<br /><em>Behind</em><br />THE LENS</h2>
         <p className="about-text">
-          I&apos;m Brigitta Toth — a photographer obsessed with the intersection of speed and stillness, metal and moss, the tame and the wild. I believe every subject has a quiet truth waiting to be found in the right light, at the right moment.
+          I&apos;m Bri — a photographer obsessed with the intersection of speed and stillness, metal and moss, the tame and the wild. I believe every subject has a quiet truth waiting to be found in the right light, at the right moment.
         </p>
         <p className="about-text">
           My cameras are extensions of my curiosity. Whether I&apos;m tracking a rally car through hairpin turns or waiting motionless for a hawk to catch the morning sun, it&apos;s all the same act of devotion.

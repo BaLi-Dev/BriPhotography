@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Brigitta Toth — Photography',
+  title: 'Bri Photography',
   description: 'Photography portfolio — Automotive, Nature, Wildlife',
 }
 

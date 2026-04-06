@@ -10,8 +10,8 @@ export default function Hero() {
         </div>
         <div className="hero-eyebrow">Photography Portfolio</div>
         <h1 className="hero-title">
-          BRIGITTA<br />
-          <span className="line2">TOTH</span>
+          BRI<br />
+          <span className="line2">PHOTOGRAPHY</span>
         </h1>
         <p className="hero-desc">
           Capturing the soul of machines, the wildness of nature, and the quiet dignity of animals — one frame at a time.
